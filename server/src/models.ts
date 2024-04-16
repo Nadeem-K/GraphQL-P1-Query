@@ -7,3 +7,9 @@ export type TrackModel = {
     modulesCount: number;
 };
 
+export type AuthorModel = {
+    id: string;
+    name: string;
+    photo: string;
+  };
+
