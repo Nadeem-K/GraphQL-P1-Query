@@ -10,9 +10,6 @@ import QueryResult from "../components/query-result";
  * We display a grid of tracks fetched with useQuery with the TRACKS query
  */
 
-
-
-
 const Tracks = () => {
   const { loading, error, data } = useQuery(TRACKS);
 
